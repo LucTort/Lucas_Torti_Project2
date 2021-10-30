@@ -27,8 +27,6 @@
 		AAAE7E0F272ABD6A00F68FA7 /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E0D272ABD6A00F68FA7 /* CarDetail.swift */; };
 		AAAE7E14272AC87100F68FA7 /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E13272AC87100F68FA7 /* AddNewCar.swift */; };
 		AAAE7E15272AC87100F68FA7 /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E13272AC87100F68FA7 /* AddNewCar.swift */; };
-		AAAE7E20272AF28700F68FA7 /* DataInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E1F272AF28700F68FA7 /* DataInput.swift */; };
-		AAAE7E21272AF28700F68FA7 /* DataInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E1F272AF28700F68FA7 /* DataInput.swift */; };
 		AAAE7E26272B2C5100F68FA7 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE7E25272B2C5100F68FA7 /* CarAssets.xcassets */; };
 		AAAE7E27272B2C5100F68FA7 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE7E25272B2C5100F68FA7 /* CarAssets.xcassets */; };
 		AAAE7E77272B4C3800F68FA7 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E76272B4C3800F68FA7 /* CarData.swift */; };
@@ -70,7 +68,6 @@
 		AAAE7E07272AB28D00F68FA7 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		AAAE7E0D272ABD6A00F68FA7 /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
 		AAAE7E13272AC87100F68FA7 /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
-		AAAE7E1F272AF28700F68FA7 /* DataInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInput.swift; sourceTree = "<group>"; };
 		AAAE7E25272B2C5100F68FA7 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
 		AAAE7E76272B4C3800F68FA7 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +123,6 @@
 				AAAE7E0D272ABD6A00F68FA7 /* CarDetail.swift */,
 				AAAE7E07272AB28D00F68FA7 /* CarStore.swift */,
 				AAAE7E13272AC87100F68FA7 /* AddNewCar.swift */,
-				AAAE7E1F272AF28700F68FA7 /* DataInput.swift */,
 				AAAE7E76272B4C3800F68FA7 /* CarData.swift */,
 				AAAE7E01272AB02800F68FA7 /* Car.swift */,
 				AA9741B1272B749A00EC3668 /* carData.json */,
@@ -341,7 +337,6 @@
 				AAAE7E14272AC87100F68FA7 /* AddNewCar.swift in Sources */,
 				AAAE7E77272B4C3800F68FA7 /* CarData.swift in Sources */,
 				AAAE7E08272AB28D00F68FA7 /* CarStore.swift in Sources */,
-				AAAE7E20272AF28700F68FA7 /* DataInput.swift in Sources */,
 				AAAE7E0E272ABD6A00F68FA7 /* CarDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +351,6 @@
 				AAAE7E15272AC87100F68FA7 /* AddNewCar.swift in Sources */,
 				AAAE7E78272B4C3800F68FA7 /* CarData.swift in Sources */,
 				AAAE7E09272AB28D00F68FA7 /* CarStore.swift in Sources */,
-				AAAE7E21272AF28700F68FA7 /* DataInput.swift in Sources */,
 				AAAE7E0F272ABD6A00F68FA7 /* CarDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

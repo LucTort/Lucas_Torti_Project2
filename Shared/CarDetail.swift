@@ -16,6 +16,7 @@ var body: some View {
                 .cornerRadius(12.0)
                 .aspectRatio(contentMode: .fit)
                 .padding()
+                .foregroundColor(.red)
             Text(selectedCar.name)
                 .font(.headline)
             Text(selectedCar.description)
@@ -23,8 +24,9 @@ var body: some View {
             HStack {
                 Text("Hybrid").font(.headline)
                 Spacer()
-                Image(systemName: selectedCar.isHybrid ?
-                      "checkmark.circle" : "xmark.circle" )
+                //if is hybrid, show this image
+//                Image(systemName: selectedCar.isHybrid ?
+//                      "checkmark.circle" : "xmark.circle" )
             }
         }
     }

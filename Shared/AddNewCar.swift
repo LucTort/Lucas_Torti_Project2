@@ -9,9 +9,10 @@ import SwiftUI
 struct AddNewCar: View
 {
     @StateObject var carStore : CarStore
-    @State private var isHybrid = false
     @State private var name: String = ""
     @State private var description: String = ""
+    @State private var genre: String = ""
+    @State private var console: String = ""
     
     var body: some View {
         Form {
@@ -22,12 +23,18 @@ struct AddNewCar: View
                     .padding()
                 DataInput(title: "Model", userInput: $name)
                 DataInput(title: "Description", userInput: $description)
-                Toggle(isOn: $isHybrid) {
-                    Text("Hybrid").font(.headline)
-                }.padding()
+                DataInput(title: "Genre", userInput: $genre)
+                DataInput(title: "Console", userInput: $console)
+//                {
+////                Toggle(isOn: $isHybrid)
+//
+//                    Text("Hybrid").font(.headline)
+//                }.padding()
             }
             Button(action: addNewCar) {
                 Text("Add Car")
+                    .foregroundColor(.red)
+            
             }
             
         }
@@ -36,12 +43,12 @@ struct AddNewCar: View
     
     func addNewCar() {
         let newCar = Car(id: UUID().uuidString,
-                         name: name, description: description,
-                         isHybrid: isHybrid, imageName: "tesla_model_3" )
+                         name: name, description: description, genre: genre, console: console, imageName: "tesla_model_3" )
         carStore.cars.append(newCar)
+//        ContentView()
+        }
     }
     
-}
 
 struct AddNewCar_Previews: PreviewProvider {
     static var previews: some View

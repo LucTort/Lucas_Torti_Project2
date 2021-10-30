@@ -23,11 +23,14 @@ struct ContentView: View {
                 .onMove(perform: moveItems)
             }
             .navigationBarTitle(Text("EV Cars"))
-            .navigationBarItems(leading: NavigationLink(destination: AddNewCar(carStore: self.carStore)) {
+            .foregroundColor(.red)
+            .navigationBarItems(leading: NavigationLink(destination:  AddNewCar(carStore: self.carStore)) {
+                
                 
                 Text("Add")
-                    .foregroundColor(.blue)
+                    .foregroundColor(.red)
             }, trailing: EditButton())
+            .foregroundColor(.red)
         }
     }
     func deleteItems(at offsets: IndexSet)
