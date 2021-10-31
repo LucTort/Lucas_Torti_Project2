@@ -43,6 +43,7 @@ struct AddNewGame: View
         
     }
     
+    //Creates a new Game object with the relevant data and adds it to the gameStore
     func addNewGame() {
         let newGame = Game(id: UUID().uuidString,
                          name: name, description: description, genre: genre, console: console, imageName: "340px-Game-Boy-FL" )
@@ -51,7 +52,7 @@ struct AddNewGame: View
         }
     }
     
-
+//Creates a new preview to be shown by ContentView
 struct AddNewGame_Previews: PreviewProvider {
     static var previews: some View
     {
@@ -60,7 +61,7 @@ struct AddNewGame_Previews: PreviewProvider {
 }
 
 
-
+//Provides a structure fo the user to input data relevant to the Game object
 struct DataInput: View {
     var title: String
     @Binding var userInput: String

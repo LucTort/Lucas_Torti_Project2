@@ -44,6 +44,7 @@ var body: some View {
 }
 }
 
+//Creates structure for the preview to use
 struct GameDetail_Previews: PreviewProvider {
     static var previews: some View {
         GameDetail(selectedGame: gameData[0])

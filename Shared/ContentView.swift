@@ -51,6 +51,7 @@ struct ContentView: View {
 
 
 //SUBVIEW
+//Shows a list of the games which can be selected
 struct ListCell: View {
     var game: Game
     var body: some View {
@@ -66,6 +67,7 @@ struct ListCell: View {
     }
 }
 
+//Basic content view structure
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
