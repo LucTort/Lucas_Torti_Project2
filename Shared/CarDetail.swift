@@ -10,7 +10,7 @@ struct CarDetail: View {
     let selectedCar: Car
 var body: some View {
     Form {
-        Section(header: Text("Car Details")) {
+        Section(header: Text("Game Details")) {
             Image(selectedCar.imageName)
                 .resizable()
                 .cornerRadius(12.0)
@@ -21,8 +21,16 @@ var body: some View {
                 .font(.headline)
             Text(selectedCar.description)
                 .font(.body)
-            HStack {
-                Text("Hybrid").font(.headline)
+            VStack (alignment: .leading) {
+                Text("Genre")
+                    .font(.headline)
+                Text(selectedCar.genre)
+                    .font(.body)
+                Spacer()
+                Text("Platforms")
+                    .font(.headline)
+                Text(selectedCar.console)
+                    .font(.body)
                 Spacer()
                 //if is hybrid, show this image
 //                Image(systemName: selectedCar.isHybrid ?

@@ -16,12 +16,12 @@ struct AddNewCar: View
     
     var body: some View {
         Form {
-            Section(header: Text("Car Details")) {
-                Image(systemName: "car.fill")
+            Section(header: Text("Game Details")) {
+                Image("340px-Game-Boy-FL")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding()
-                DataInput(title: "Model", userInput: $name)
+                DataInput(title: "Name", userInput: $name)
                 DataInput(title: "Description", userInput: $description)
                 DataInput(title: "Genre", userInput: $genre)
                 DataInput(title: "Console", userInput: $console)
@@ -32,7 +32,7 @@ struct AddNewCar: View
 //                }.padding()
             }
             Button(action: addNewCar) {
-                Text("Add Car")
+                Text("Add Game")
                     .foregroundColor(.red)
             
             }
@@ -43,7 +43,7 @@ struct AddNewCar: View
     
     func addNewCar() {
         let newCar = Car(id: UUID().uuidString,
-                         name: name, description: description, genre: genre, console: console, imageName: "tesla_model_3" )
+                         name: name, description: description, genre: genre, console: console, imageName: "340px-Game-Boy-FL" )
         carStore.cars.append(newCar)
 //        ContentView()
         }
