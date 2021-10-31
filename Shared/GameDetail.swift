@@ -4,6 +4,9 @@
 //
 //  Created by cpsc on 10/28/21.
 //
+
+//This view is responsible for showing a specific item. It shows the image and text fields, and has a back button
+
 import SwiftUI
 //extension UIViewController {
 struct GameDetail: View {
@@ -21,8 +24,16 @@ var body: some View {
                 .font(.headline)
             Text(selectedGame.description)
                 .font(.body)
-            HStack {
-                Text("Hybrid").font(.headline)
+            VStack (alignment: .leading) {
+                Text("Genre")
+                    .font(.headline)
+                Text(selectedGame.genre)
+                    .font(.body)
+                Spacer()
+                Text("Platforms")
+                    .font(.headline)
+                Text(selectedGame.console)
+                    .font(.body)
                 Spacer()
                 //if is hybrid, show this image
 //                Image(systemName: selectedGame.isHybrid ?
