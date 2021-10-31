@@ -22,7 +22,7 @@ struct ContentView: View {
                 .onDelete(perform: deleteItems)
                 .onMove(perform: moveItems)
             }
-            .navigationBarTitle(Text("EV Cars"))
+            .navigationBarTitle(Text("Video Games"))
             .foregroundColor(.red)
             .navigationBarItems(leading: NavigationLink(destination:  AddNewCar(carStore: self.carStore)) {
                 

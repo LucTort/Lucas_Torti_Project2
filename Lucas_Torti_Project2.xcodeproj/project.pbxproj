@@ -11,8 +11,8 @@
 		AA522BD62728979200876F6A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BD52728979200876F6A /* Tests_iOSLaunchTests.swift */; };
 		AA522BE02728979200876F6A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BDF2728979200876F6A /* Tests_macOS.swift */; };
 		AA522BE22728979200876F6A /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BE12728979200876F6A /* Tests_macOSLaunchTests.swift */; };
-		AA522BE32728979200876F6A /* CPSC357_Project_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBB2728978F00876F6A /* CPSC357_Project_2App.swift */; };
-		AA522BE42728979200876F6A /* CPSC357_Project_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBB2728978F00876F6A /* CPSC357_Project_2App.swift */; };
+		AA522BE32728979200876F6A /* Lucas_Torti_Project2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBB2728978F00876F6A /* Lucas_Torti_Project2App.swift */; };
+		AA522BE42728979200876F6A /* Lucas_Torti_Project2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBB2728978F00876F6A /* Lucas_Torti_Project2App.swift */; };
 		AA522BE52728979200876F6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBC2728978F00876F6A /* ContentView.swift */; };
 		AA522BE62728979200876F6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBC2728978F00876F6A /* ContentView.swift */; };
 		AA522BE72728979200876F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA522BBD2728979100876F6A /* Assets.xcassets */; };
@@ -51,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA522BBB2728978F00876F6A /* CPSC357_Project_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC357_Project_2App.swift; sourceTree = "<group>"; };
+		AA522BBB2728978F00876F6A /* Lucas_Torti_Project2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucas_Torti_Project2App.swift; sourceTree = "<group>"; };
 		AA522BBC2728978F00876F6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA522BBD2728979100876F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA522BC22728979100876F6A /* CPSC357_Project_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPSC357_Project_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +118,7 @@
 		AA522BBA2728978F00876F6A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				AA522BBB2728978F00876F6A /* CPSC357_Project_2App.swift */,
+				AA522BBB2728978F00876F6A /* Lucas_Torti_Project2App.swift */,
 				AA522BBC2728978F00876F6A /* ContentView.swift */,
 				AAAE7E0D272ABD6A00F68FA7 /* CarDetail.swift */,
 				AAAE7E07272AB28D00F68FA7 /* CarStore.swift */,
@@ -268,7 +268,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA522BB92728978F00876F6A /* Build configuration list for PBXProject "CPSC357_Project_2" */;
+			buildConfigurationList = AA522BB92728978F00876F6A /* Build configuration list for PBXProject "Lucas_Torti_Project2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -332,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA522BE52728979200876F6A /* ContentView.swift in Sources */,
-				AA522BE32728979200876F6A /* CPSC357_Project_2App.swift in Sources */,
+				AA522BE32728979200876F6A /* Lucas_Torti_Project2App.swift in Sources */,
 				AAAE7E02272AB02800F68FA7 /* Car.swift in Sources */,
 				AAAE7E14272AC87100F68FA7 /* AddNewCar.swift in Sources */,
 				AAAE7E77272B4C3800F68FA7 /* CarData.swift in Sources */,
@@ -346,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA522BE62728979200876F6A /* ContentView.swift in Sources */,
-				AA522BE42728979200876F6A /* CPSC357_Project_2App.swift in Sources */,
+				AA522BE42728979200876F6A /* Lucas_Torti_Project2App.swift in Sources */,
 				AAAE7E03272AB02800F68FA7 /* Car.swift in Sources */,
 				AAAE7E15272AC87100F68FA7 /* AddNewCar.swift in Sources */,
 				AAAE7E78272B4C3800F68FA7 /* CarData.swift in Sources */,
@@ -721,7 +721,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA522BB92728978F00876F6A /* Build configuration list for PBXProject "CPSC357_Project_2" */ = {
+		AA522BB92728978F00876F6A /* Build configuration list for PBXProject "Lucas_Torti_Project2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA522BE92728979200876F6A /* Debug */,
