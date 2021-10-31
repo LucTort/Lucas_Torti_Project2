@@ -5,6 +5,8 @@
 //  Created by cpsc on 10/28/21.
 //
 
+//This specifies the types of data contained in each item
+
 import SwiftUI
 struct Car : Codable, Identifiable {
 var id: String

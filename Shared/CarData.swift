@@ -5,6 +5,8 @@
 //  Created by cpsc on 10/28/21.
 //
 
+//This script is in charge of loading the item data
+
 
 import UIKit
 import SwiftUI

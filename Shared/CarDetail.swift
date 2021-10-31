@@ -4,6 +4,9 @@
 //
 //  Created by cpsc on 10/28/21.
 //
+
+//This view is responsible for showing a specific item. It shows the image and text fields, and has a back button
+
 import SwiftUI
 //extension UIViewController {
 struct CarDetail: View {

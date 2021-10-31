@@ -5,7 +5,10 @@
 //  Created by cpsc on 10/26/21.
 //
 
+//This is the view responsible for the main page of the app. It is in charge of managing the home screen and all the items it contains
+
 import SwiftUI
+
 
 struct ContentView: View {
     @StateObject private var carStore : CarStore = CarStore(cars: carData)
