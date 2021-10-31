@@ -17,8 +17,6 @@
 		AA522BE62728979200876F6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA522BBC2728978F00876F6A /* ContentView.swift */; };
 		AA522BE72728979200876F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA522BBD2728979100876F6A /* Assets.xcassets */; };
 		AA522BE82728979200876F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA522BBD2728979100876F6A /* Assets.xcassets */; };
-		AA9741B2272B749A00EC3668 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9741B1272B749A00EC3668 /* carData.json */; };
-		AA9741B3272B749A00EC3668 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9741B1272B749A00EC3668 /* carData.json */; };
 		AAAE7E02272AB02800F68FA7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E01272AB02800F68FA7 /* Car.swift */; };
 		AAAE7E03272AB02800F68FA7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E01272AB02800F68FA7 /* Car.swift */; };
 		AAAE7E08272AB28D00F68FA7 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E07272AB28D00F68FA7 /* CarStore.swift */; };
@@ -31,6 +29,8 @@
 		AAAE7E27272B2C5100F68FA7 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE7E25272B2C5100F68FA7 /* CarAssets.xcassets */; };
 		AAAE7E77272B4C3800F68FA7 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E76272B4C3800F68FA7 /* CarData.swift */; };
 		AAAE7E78272B4C3800F68FA7 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E76272B4C3800F68FA7 /* CarData.swift */; };
+		AAF93B87272E3BD7000A2E18 /* gameData.json in Resources */ = {isa = PBXBuildFile; fileRef = AAF93B86272E3BD7000A2E18 /* gameData.json */; };
+		AAF93B88272E3BD7000A2E18 /* gameData.json in Resources */ = {isa = PBXBuildFile; fileRef = AAF93B86272E3BD7000A2E18 /* gameData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +63,13 @@
 		AA522BDB2728979200876F6A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA522BDF2728979200876F6A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AA522BE12728979200876F6A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		AA9741B1272B749A00EC3668 /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = SOURCE_ROOT; };
 		AAAE7E01272AB02800F68FA7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		AAAE7E07272AB28D00F68FA7 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		AAAE7E0D272ABD6A00F68FA7 /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
 		AAAE7E13272AC87100F68FA7 /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
 		AAAE7E25272B2C5100F68FA7 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
 		AAAE7E76272B4C3800F68FA7 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		AAF93B86272E3BD7000A2E18 /* gameData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 				AAAE7E13272AC87100F68FA7 /* AddNewCar.swift */,
 				AAAE7E76272B4C3800F68FA7 /* CarData.swift */,
 				AAAE7E01272AB02800F68FA7 /* Car.swift */,
-				AA9741B1272B749A00EC3668 /* carData.json */,
+				AAF93B86272E3BD7000A2E18 /* gameData.json */,
 				AA522BBD2728979100876F6A /* Assets.xcassets */,
 				AAAE7E25272B2C5100F68FA7 /* CarAssets.xcassets */,
 			);
@@ -294,7 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9741B2272B749A00EC3668 /* carData.json in Resources */,
+				AAF93B87272E3BD7000A2E18 /* gameData.json in Resources */,
 				AA522BE72728979200876F6A /* Assets.xcassets in Resources */,
 				AAAE7E26272B2C5100F68FA7 /* CarAssets.xcassets in Resources */,
 			);
@@ -304,7 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9741B3272B749A00EC3668 /* carData.json in Resources */,
+				AAF93B88272E3BD7000A2E18 /* gameData.json in Resources */,
 				AA522BE82728979200876F6A /* Assets.xcassets in Resources */,
 				AAAE7E27272B2C5100F68FA7 /* CarAssets.xcassets in Resources */,
 			);

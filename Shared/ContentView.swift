@@ -11,7 +11,7 @@ import SwiftUI
 
 
 struct ContentView: View {
-    @StateObject private var carStore : CarStore = CarStore(cars: carData)
+    @StateObject private var gameStore : GameStore = GameStore(games: gameData)
     
     var body: some View
     {
@@ -19,15 +19,15 @@ struct ContentView: View {
         {
            List
             {
-                ForEach (carStore.cars) { car in
-                    ListCell(car: car)
+                ForEach (gameStore.games) { game in
+                    ListCell(game: game)
                 }
                 .onDelete(perform: deleteItems)
                 .onMove(perform: moveItems)
             }
             .navigationBarTitle(Text("Video Games"))
             .foregroundColor(.red)
-            .navigationBarItems(leading: NavigationLink(destination:  AddNewCar(carStore: self.carStore)) {
+            .navigationBarItems(leading: NavigationLink(destination:  AddNewGame(gameStore: self.gameStore)) {
                 
                 
                 Text("Add")
@@ -38,12 +38,12 @@ struct ContentView: View {
     }
     func deleteItems(at offsets: IndexSet)
     {
-        carStore.cars.remove(atOffsets: offsets)
+        gameStore.games.remove(atOffsets: offsets)
     }
 
     func moveItems(from source: IndexSet, to destination: Int)
     {
-        carStore.cars.move(fromOffsets: source, toOffset: destination)
+        gameStore.games.move(fromOffsets: source, toOffset: destination)
     }
 }
 
@@ -52,15 +52,15 @@ struct ContentView: View {
 
 //SUBVIEW
 struct ListCell: View {
-    var car: Car
+    var game: Game
     var body: some View {
-        NavigationLink(destination: CarDetail(selectedCar: car)) {
+        NavigationLink(destination: GameDetail(selectedGame: game)) {
             HStack {
-                Image(car.imageName)
+                Image(game.imageName)
                     .resizable()
                     .aspectRatio(contentMode:.fit)
                     .frame(width: 100, height: 60)
-                Text(car.name)
+                Text(game.name)
             }
         }
     }

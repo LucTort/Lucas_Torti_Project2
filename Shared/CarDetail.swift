@@ -1,5 +1,5 @@
 //
-//  CarDetail.swift
+//  GameDetail.swift
 //  CPSC357_Project_2
 //
 //  Created by cpsc on 10/28/21.
@@ -9,34 +9,34 @@
 
 import SwiftUI
 //extension UIViewController {
-struct CarDetail: View {
-    let selectedCar: Car
+struct GameDetail: View {
+    let selectedGame: Game
 var body: some View {
     Form {
         Section(header: Text("Game Details")) {
-            Image(selectedCar.imageName)
+            Image(selectedGame.imageName)
                 .resizable()
                 .cornerRadius(12.0)
                 .aspectRatio(contentMode: .fit)
                 .padding()
                 .foregroundColor(.red)
-            Text(selectedCar.name)
+            Text(selectedGame.name)
                 .font(.headline)
-            Text(selectedCar.description)
+            Text(selectedGame.description)
                 .font(.body)
             VStack (alignment: .leading) {
                 Text("Genre")
                     .font(.headline)
-                Text(selectedCar.genre)
+                Text(selectedGame.genre)
                     .font(.body)
                 Spacer()
                 Text("Platforms")
                     .font(.headline)
-                Text(selectedCar.console)
+                Text(selectedGame.console)
                     .font(.body)
                 Spacer()
                 //if is hybrid, show this image
-//                Image(systemName: selectedCar.isHybrid ?
+//                Image(systemName: selectedGame.isHybrid ?
 //                      "checkmark.circle" : "xmark.circle" )
             }
         }
@@ -44,9 +44,9 @@ var body: some View {
 }
 }
 
-struct CarDetail_Previews: PreviewProvider {
+struct GameDetail_Previews: PreviewProvider {
     static var previews: some View {
-        CarDetail(selectedCar: carData[0])
+        GameDetail(selectedGame: gameData[0])
     }
 }
 

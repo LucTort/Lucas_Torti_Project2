@@ -1,16 +1,16 @@
 //
-//  AddCarView.swift
+//  AddGameView.swift
 //  CPSC357_Project_2
 //
 //  Created by cpsc on 10/28/21.
 //
 
-//This is the script which specifies the view for adding a new car. It has a bunch of text fields which can be filled out, as well as a button at the bottom for adding the item, and a back button
+//This is the script which specifies the view for adding a new game. It has a bunch of text fields which can be filled out, as well as a button at the bottom for adding the item, and a back button
 
 import SwiftUI
-struct AddNewCar: View
+struct AddNewGame: View
 {
-    @StateObject var carStore : CarStore
+    @StateObject var gameStore : GameStore
     @State private var name: String = ""
     @State private var description: String = ""
     @State private var genre: String = ""
@@ -33,7 +33,7 @@ struct AddNewCar: View
 //                    Text("Hybrid").font(.headline)
 //                }.padding()
             }
-            Button(action: addNewCar) {
+            Button(action: addNewGame) {
                 Text("Add Game")
                     .foregroundColor(.red)
             
@@ -43,19 +43,19 @@ struct AddNewCar: View
         
     }
     
-    func addNewCar() {
-        let newCar = Car(id: UUID().uuidString,
+    func addNewGame() {
+        let newGame = Game(id: UUID().uuidString,
                          name: name, description: description, genre: genre, console: console, imageName: "340px-Game-Boy-FL" )
-        carStore.cars.append(newCar)
+        gameStore.games.append(newGame)
 //        ContentView()
         }
     }
     
 
-struct AddNewCar_Previews: PreviewProvider {
+struct AddNewGame_Previews: PreviewProvider {
     static var previews: some View
     {
-        AddNewCar(carStore: CarStore(cars: carData))
+        AddNewGame(gameStore: GameStore(games: gameData))
     }
 }
 
